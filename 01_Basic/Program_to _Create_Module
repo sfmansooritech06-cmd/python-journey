@@ -1,0 +1,12 @@
+# Creating a Module
+
+def greeting(name):
+  print("Hello,"+ name)
+
+save this program with the mymodule  name.
+# Using Module in program
+
+improt mymodule
+mymodule.greeting("Hello Developer")
+
+Output - Hello Developer
