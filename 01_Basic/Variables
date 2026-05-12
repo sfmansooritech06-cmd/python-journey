@@ -1,0 +1,13 @@
+Variables-
+Variables are used to store and manage data. It is like a container that holds data.
+Variables name must start with letter or underscore character.
+Variables name cannot start with number.
+Varibles name can only contain alphanumeric character and underscore
+
+
+Example 
+Assigning multiple variables to many values
+a,b,c = "Mango","Orange","Banana"
+print(a)
+print(b)
+print(c)
