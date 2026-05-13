@@ -1,0 +1,18 @@
+Data type specifies the type of value a variable holds. This require in programming to do various operation without causing
+an error.
+It is not necessary to specify the datatype in python because python is interpreted programming language that automatically
+detect the variable as they define.
+
+There are five types of data types:
+1. Numeric
+2. Dictionary
+3. Boolean
+4. Set
+5. Sequence Type
+
+
+Example:
+a = "Apple"
+print(a)
+
+In python the data type is automatically detected as it is string type variable
