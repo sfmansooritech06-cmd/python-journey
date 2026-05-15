@@ -1,0 +1,11 @@
+import random
+print("Let's check who will pay!")
+friends = ["Chhavi","Nikhil","Rakhi","Aryan","Mohit","Rahul","Rohan","Tanisha","Sadaf"]
+random_friend = random.choice(friends)
+print(random_friend)
+
+
+
+
+Output -
+It random choose the number when you run the program
