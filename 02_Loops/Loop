@@ -1,0 +1,27 @@
+Loops - 
+
+Loops are the fundamental concept in python programming that allow us,
+to repeat a block of code multiple ime depending on certain condition.
+Sometimes we want to repeat a set of instruction or statement in our program
+
+For example :
+print no from 10 to 10000
+
+There are two types of loop in python:
+1. For Loop
+2. While Loop
+
+1. For Loop :-
+For loop in python is used to iterate over a sequence. This loop excute a block of code for each item in the sequnce.
+Syntax-
+for variable_name in sequence
+  # code body
+
+While Loop - 
+The while loop in python keep exucting a block of code as long as the condition true
+the condition is false loop is stop
+
+Syntax -
+While(condition):
+  #code body
+  #increment or decrement
