@@ -1,0 +1,16 @@
+Function - 
+A function is a block of code which only run when it is called.
+A function is a group of statement that perform a specific task.
+
+When a program gets bigger in the size and its complexity grows,
+it get  difficult for the programmer to keep track on which a peice of code is doing what.
+
+A function can be reused by the program in a given program any number of time.
+We can pass data known as parameter into a function A function can return data as a result.
+Function can increase the readability and reusability.
+
+Syntax of  Function - 
+
+def function_name (parameters):
+  # CODE STATEMENT
+return expression
