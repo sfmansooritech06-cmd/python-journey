@@ -1,0 +1,6 @@
+def Celc():
+    c = int(input("Enter the Celcius :"))
+    fahrenheit = (c * 9 /5) + 32
+    print("The temprature in fah:", fahrenheit)
+
+Celc()
