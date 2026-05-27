@@ -1,0 +1,4 @@
+print("Program in reverse pattern")
+star = int(input("Enter the number "))
+for i in range(star,0, -1):
+    print("" *(star - i)+ "*" * i )
