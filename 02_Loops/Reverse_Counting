@@ -1,0 +1,4 @@
+print("Program for reverse counting")
+number = int(input("Enter the number :"))
+for number in range(number,0,-1):
+    print(number)
