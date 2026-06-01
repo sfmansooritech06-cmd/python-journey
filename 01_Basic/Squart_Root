@@ -1,0 +1,4 @@
+print(" Program to find the square of the given values")
+a = int(input("Enter the value :"))
+
+print("The Square is :", a ** 2)
