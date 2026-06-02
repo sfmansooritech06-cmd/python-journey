@@ -1,0 +1,16 @@
+Break keyword is used to terminate the loop when encountered.
+Means you are searching for an element when it occur print statement print that element and teminate that loop.
+
+For Example :
+
+num = [12,13,15,14,16,17,18,19,82,78,45,55,96,45,25,498,47,58,58,656,5656,5,285,5,58,5]
+index = 0
+search = 96
+while index <= len(num) - 1:
+
+  if num[index] == search:
+    print("The element is found on the index -",index)
+    break
+  index = index + 1
+print("End loop")
+  
