@@ -1,0 +1,30 @@
+# Rock Paper Scissors Game 🎮
+
+A simple Rock Paper Scissors game built using Python.
+
+## Description
+
+This is a command-line game where the user plays Rock, Paper, Scissors against the computer. The computer randomly chooses an option, and the winner is decided based on the game rules.
+
+## Features
+
+- User vs Computer gameplay
+- Random computer choices
+- Rock, Paper, and Scissors ASCII art
+- Win, Lose, and Draw conditions
+- Input validation for user choices
+
+## Technologies Used
+
+- Python 3
+- Random Module
+
+
+## What I Learned
+
+- Conditional Statements (if-elif-else)
+- Random Number Generation
+- User Input Handling
+- Game Logic Implementation
+- ASCII Art in Python
+
