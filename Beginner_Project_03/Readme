@@ -1,0 +1,23 @@
+# 🔐 Password Generator (Python)
+
+A simple Password Generator built using Python. This program generates a random password based on the number of letters, numbers, and symbols selected by the user.
+
+## 🚀 Features
+
+- User chooses the number of letters
+- User chooses the number of numbers
+- User chooses the number of symbols
+- Generates a random password
+- Uses Python's `random` module
+- Beginner-friendly project
+
+## 📌 Concepts Used
+
+- Variables
+- Lists
+- Loops (`for`)
+- User Input
+- Random Module
+- List Methods (`append`)
+- String Manipulation
+
