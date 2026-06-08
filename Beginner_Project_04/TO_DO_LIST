@@ -1,0 +1,38 @@
+print(" ========= WELCOME TO DO LIST =========== ")
+
+
+
+
+task = []
+while True:
+    print("1. ADD Task ")
+    print("2. View Task ")
+    print("3.Delete Task ")
+    print("4. Exit ")
+
+    choose = int(input("Choose the task that you want to do :"))
+
+    if choose == 1:
+        add = input("Enter your task :")
+        task.append(add)
+        print("Your task is added to the TO_DO_LIST Successfully")
+
+    elif choose == 2:
+        if task:
+            print(task)
+        else:
+            print("Task is not avaliable")
+
+    elif choose == 3:
+
+        rmv = input(" Task you want to remove :")
+        if rmv in task:
+            task.remove(rmv)
+            print("Task is deleted ")
+        else:
+            print("This task is not in the list")
+
+    elif choose == 4:
+        break
+
+
