@@ -1,0 +1,22 @@
+# 📝 To-Do List Application
+
+A simple command-line To-Do List application built using Python. This project allows users to add, view, and delete tasks through a menu-driven interface.
+
+## 🚀 Features
+
+- Add new tasks
+- View all tasks
+- Delete existing tasks
+- Exit the application
+- Handles invalid task deletion gracefully
+
+## 📌 Concepts Used
+
+- Python Lists
+- Loops (`while`)
+- Conditional Statements (`if-elif-else`)
+- User Input
+- List Methods (`append`, `remove`)
+- Menu-Driven Programming
+
+
