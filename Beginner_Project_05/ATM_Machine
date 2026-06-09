@@ -1,0 +1,37 @@
+print(" ========== WELCOME TO ATM MACHINE ============ ")
+
+balance = 1000
+
+while True:
+
+    print("\n1. Check Balance")
+    print("2. Add Balance")
+    print("3. Withdraw")
+    print("4. Exit")
+
+    user = int(input("What you want to do: "))
+
+    if user == 1:
+        print("Your balance is:", balance)
+
+    elif user == 2:
+        deposit = int(input("Enter the amount you want to add: "))
+        balance = balance + deposit
+        print("New Balance is:", balance)
+
+    elif user == 3:
+        amount = int(input("Enter the amount you want to withdraw: "))
+
+        if amount <= balance:
+            balance = balance - amount
+            print("Withdraw amount is:", amount)
+            print("Available balance is:", balance)
+        else:
+            print("Oops! Insufficient Balance")
+
+    elif user == 4:
+        print("Thank you for using ATM Machine!")
+        break
+
+    else:
+        print("Invalid Choice!")
