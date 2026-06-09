@@ -1,0 +1,28 @@
+# 🏧 ATM Machine Simulation
+
+A simple ATM Machine Simulation built using Python. This project allows users to check their balance, deposit money, withdraw money, and exit the application through a menu-driven interface.
+
+## 🚀 Features
+
+- Check Account Balance
+- Deposit Money
+- Withdraw Money
+- Insufficient Balance Handling
+- Exit Application
+- Menu-Driven Program
+
+## 📌 Concepts Used
+
+- Variables
+- Loops (`while`)
+- Conditional Statements (`if-elif-else`)
+- User Input
+- Arithmetic Operations
+- Menu-Driven Programming
+
+
+
+
+## ⭐ Project Status
+
+Completed as a Beginner Python Project.
