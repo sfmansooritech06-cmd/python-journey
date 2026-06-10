@@ -1,0 +1,14 @@
+Dictionary is a data structure that stores the information in key value pair.
+
+In dictionary keys must be unique and immutable and values can be of any type of
+data type whether they are mutable or immutable.
+
+This makes dictionaries ideal for accessing data by a specific name rather than a 
+numeric position like list.
+
+Example :
+a = {"x": 1, "y": 2}
+print(a)
+
+b = dict(name="Sam", age=20)
+print(b)
