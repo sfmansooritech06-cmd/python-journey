@@ -1,0 +1,48 @@
+
+print(" ============ WELCOME TO CONTACT ============== ")
+contact = {}
+while True:
+    print("\n 1. Add Contact ")
+    print("2. View Contacts ")
+    print("3. Search Contact ")
+    print("4. Delete Contact ")
+    print("5. Exit ")
+
+    user = int(input("Enter the task you want to do :"))
+
+
+
+
+    if user == 1:
+        n = int(input("How many entires you want to do : "))
+        for i in range(n):
+            name = input("Enter the Name :")
+            number = input(" Enter the Number :")
+            contact[name]= number
+        print("Contact is  saved Succesfully : ",contact)
+
+    elif user == 2:
+        print(" Your Contact is :")
+        print(contact)
+
+    elif user == 3:
+        srch = input("Enter the name you want to search :")
+        if srch in contact:
+            print(contact[srch])
+        else:
+            print("Contact not found!")
+    elif user == 4:
+        rmv = input("Enter the name you want to delete :")
+        if rmv in contact:
+            contact.pop(rmv)
+            print("Contact is deleted Successfully !")
+        else:
+            print(" Oops! Contact is not in the list!")
+    elif user == 5:
+        break
+    else:
+        print("Invalid User")
+
+print("Thank you of adding your Details ")
+
+
