@@ -1,0 +1,37 @@
+# 📒 Contact Book
+
+A simple Contact Book application built using Python. This project allows users to add, view, search, and delete contacts using a menu-driven interface.
+
+## 🚀 Features
+
+- Add New Contacts
+- View All Contacts
+- Search Contact by Name
+- Delete Contact
+- Exit Application
+
+## 📌 Concepts Used
+
+- Dictionaries
+- Loops (`while`, `for`)
+- Conditional Statements (`if-elif-else`)
+- User Input
+- Dictionary Methods (`pop`)
+- Menu-Driven Programming
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- How to use Python Dictionaries
+- How to store data as Key-Value pairs
+- How to search data in a dictionary
+- How to delete dictionary entries
+- How to create menu-driven applications
+- How to work with loops and conditions
+
+
+
+## ⭐ Project Status
+
+Completed as an Intermediate Python Project.
