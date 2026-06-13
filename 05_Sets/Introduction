@@ -1,0 +1,13 @@
+A set is a n unordered collection of unique elements. 
+Sets are used to store multiple items in a single variable
+It is a built in data type used to eliminate duplicate values
+and perform highly efficient membership test.
+
+A set is a collection of unordered, unchangeable and unindexed data type.
+it is return in curly bracket.
+
+Example :
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+
