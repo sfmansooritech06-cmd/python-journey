@@ -1,0 +1,4 @@
+To define function we use def keyword
+The function defines the way how arguments are passed
+1. Pass by value
+2. Pass by reference
