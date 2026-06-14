@@ -1,0 +1,13 @@
+Python can be used to  perform operation on file(Read and write data) on file.
+There are two types of file:-
+1. Text file 
+2. Binary file
+
+In text file the data is store in character format like .txt,.docx,.log etc
+And in binary file the data is not stored in the form of character format but stored in another format like .png,.jpeg,.mov,.mp4 etc.
+
+So before reading or writing the file we need to open that file for open any file in  python syntax is 
+
+variable_name = open("file_name","mode")
+
+Mode describe in which mode like read file or write file the default mode is read mode
