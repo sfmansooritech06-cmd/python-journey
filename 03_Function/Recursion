@@ -1,0 +1,5 @@
+Recursion is a programming technique where a function calls itself either directly or indirectly to solve a problem. It is commonly used for:
+
+Breaking problems into smaller subproblems
+Mathematical calculations like factorial and Fibonacci
+Tree and graph traversal and Divide-and-conquer algorithms
