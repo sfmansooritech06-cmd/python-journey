@@ -1,43 +1,43 @@
-### 'r' Mode (Read Mode)
+'r' Mode (Read Mode)
 
 The 'r' mode is used to open a file for reading only. 
 If the file exists, it opens normally and the file pointer is placed at the beginning of the file.
 If the file does not exist, Python raises a `FileNotFoundError`. 
 This mode does not allow any modifications to the file content.
 
-### 'w' Mode (Write Mode)
+'w' Mode (Write Mode)
 
 The 'w' mode is used to open a file for writing.
 If the file already exists, all existing content is erased before writing new data.
 If the file does not exist, Python automatically creates a new file.
 The file pointer is positioned at the beginning of the file.
 
-### 'a' Mode (Append Mode)
+'a' Mode (Append Mode)
 
 The 'a' mode is used to add new content to the end of a file.
 If the file exists, its current content remains unchanged and new data is appended at the end.
 If the file does not exist, Python creates a new file. The file pointer is placed at the end of the file.
 
-### 'x' Mode (Exclusive Create Mode)
+'x' Mode (Exclusive Create Mode)
 
 The 'x' mode is used to create a new file exclusively. 
 If the file already exists, Python raises a `FileExistsError`.
 If the file does not exist, a new file is created successfully. The file pointer is positioned at the beginning of the file.
 
-### 'r+' Mode (Read and Write Mode)
+'r+' Mode (Read and Write Mode)
 
 The 'r+' mode allows both reading and writing operations on a file.
 The file must already exist; otherwise, Python raises a `FileNotFoundError`. 
 The file pointer starts at the beginning of the file.
 This mode is useful when you need to read existing content and update it.
 
-### 'w+' Mode (Write and Read Mode)
+'w+' Mode (Write and Read Mode)
 
 The 'w+' mode allows both writing and reading operations.
 If the file already exists, all existing content is erased when the file is opened.
 If the file does not exist, Python creates a new file. The file pointer starts at the beginning of the file.
 
-### 'a+' Mode (Append and Read Mode)
+'a+' Mode (Append and Read Mode)
 
 The 'a+' mode allows both reading and appending operations.
 Existing content is preserved, and any new data is always added to the end of the file.
