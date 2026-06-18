@@ -1,0 +1,107 @@
+alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+
+
+print('''
+
+🔐 Welcome to the Caesar Cipher Project 🔐
+
+''')
+
+
+
+def encrypt(original_text, shift_amount):
+
+    cipher_text = ""
+
+    for letter in original_text:
+
+        if letter in alphabet:
+
+            position = alphabet.index(letter)
+
+            shifted_position = (position + shift_amount) % 26
+
+            cipher_text += alphabet[shifted_position]
+
+        else:
+
+            cipher_text += letter
+
+    print(f"\n🔒 Encrypted Result: {cipher_text}")
+
+
+
+def decrypt(original, shift):
+
+    cipher = ""
+
+    for letter in original:
+
+        if letter in alphabet:
+
+            position = alphabet.index(letter)
+
+            shift_position = (position - shift) % 26
+
+            cipher += alphabet[shift_position]
+
+        else:
+
+            cipher += letter
+
+    print(f"\n🔓 Decrypted Result: {cipher}")
+
+
+
+def again():
+
+    while True:
+
+        direction = input("\nType 'encode' to encrypt and 'decode' to decrypt:\n").lower()
+
+        if direction not in ['encode', 'decode']:
+
+            print("❌ Invalid option. Please type 'encode' or 'decode'.")
+
+            continue
+
+
+
+        text = input("Type your message:\n").lower()
+
+        try:
+
+            shifts = int(input("How many characters you want to shift:\n"))
+
+        except ValueError:
+
+            print("❌ Please enter a valid number.")
+
+            continue
+
+
+
+        if direction == 'encode':
+
+            encrypt(original_text=text, shift_amount=shifts)
+
+        elif direction == 'decode':
+
+            decrypt(original=text, shift=shifts)
+
+
+
+        hy = input("\n🔁 Do you want to try again? Type 'yes' or 'no':\n").lower()
+
+        if hy != 'yes':
+
+            print("\n✅ Code is finished. Thank you for using Caesar Cipher!")
+
+            break
+
+
+
+
+
+again()
