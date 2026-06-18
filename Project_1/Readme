@@ -1,0 +1,39 @@
+# 🔐 Caesar Cipher Project
+
+A Python-based Caesar Cipher application that allows users to encrypt and decrypt messages by shifting
+characters in the alphabet.
+
+## 🚀 Features
+
+* Encrypt Messages
+* Decrypt Messages
+* Custom Shift Value
+* Handles Spaces and Special Characters
+* Input Validation
+* Repeat Operations Without Restarting the Program
+* User-Friendly Console Interface
+
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+* How encryption algorithms work
+* Function creation and parameter passing
+* String processing techniques
+* Error handling using try-except
+* Building interactive command-line applications
+* Using modulus operator for circular indexing
+
+## 🔮 Future Improvements
+
+* Support for uppercase letters
+* Save encrypted messages to a file
+* GUI version using Tkinter
+* Random key generation
+* Multiple encryption algorithms
+
+
+
+Completed Successfully.
+Intermediate Python Project.
