@@ -1,0 +1,27 @@
+Object-Oriented Programming (OOP) was introduced to represent real-world entities and scenarios in code using objects. 
+It helps developers write programs that are more organized, reusable, and easier to maintain.
+
+The main advantage of OOP is that it increases code reusability and reduces code redundancy. 
+Instead of writing the same code multiple times, we can create classes and objects and reuse them whenever required.
+
+Functions also help in reducing redundancy and improving code reusability because a function can be called 
+multiple times for repetitive tasks. However, OOP is much broader than functions. 
+OOP is based on concepts such as classes, objects, inheritance, polymorphism, encapsulation, and abstraction, 
+whereas a function is simply a block of code designed to perform a specific task.
+
+Therefore, although both functions and OOP improve code reusability and reduce redundancy,
+OOP cannot be considered the same as a function because it provides a complete programming paradigm for designing
+and managing software systems.
+
+
+Class and Object : 
+Class is a blueprint for creating object. To define the class we use class keyword, the syntax of class is :
+class Student:
+  name = "Python Developer "
+  s = student()
+  print(s)
+class is the keyword and Student is the class name,
+name is the attribute in a class name student,
+s is the object of class and we are printing s 
+so it will print the output 
+ Python Developer
