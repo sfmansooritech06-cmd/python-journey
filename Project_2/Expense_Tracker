@@ -1,0 +1,71 @@
+
+
+print("================== Welcome to Expense Tracker ===============")
+while True:
+
+    print("1. Add Expense","\n"
+          "2. View Expense","\n"
+          "3. Total Expense","\n"
+          "4. Delete Expense","\n"
+          "5. Exit")
+    user = input("Enter the task you want to do :")
+    if user == "1":
+        print("Enter the expenses: ")
+        exp = input("Enter the category :")
+        exps = input("Enter the expense rupees :")
+        expense = open("Expense.txt","a")
+        expense = expense.write(exp + "," + exps + "\n")
+        print("Your expense is successfully added in the file!")
+
+
+    elif user == "2":
+        expense = open("Expense.txt","r")
+        try:
+            with open("Expense.txt","r",encoding = "utf-8")as file:
+                content = file.read()
+                if content.strip():
+                    print(content)
+                else:
+                    print("Content not found in the file !")
+        except FileNotFoundError:
+            print("File Error : File not found !")
+
+
+    elif user == "3":
+        total = 0
+
+        try:
+            with open("Expense.txt", "r") as file:
+                for line in file:
+                    category, amount = line.strip().split(",")
+                    total = total + int(amount)
+
+            print("Total Expense is :", total)
+
+        except FileNotFoundError:
+            print("File not found!")
+
+    elif user =="4":
+        rmv = input("Enter the Expense Category you want to delete : ")
+
+        try:
+            with open("Expense.txt", "r") as file:
+                lines = file.readlines()
+
+            new_lines = []
+
+            for line in lines:
+                if not line.startswith(rmv + ","):
+                    new_lines.append(line)
+
+            with open("Expense.txt", "w") as file:
+                file.writelines(new_lines)
+
+            print("Expense is successfully deleted!")
+
+        except FileNotFoundError:
+            print("File not found!")
+    elif user == "5":
+        break
+    else:
+        print("Invalid Choice")
