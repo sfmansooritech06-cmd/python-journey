@@ -1,0 +1,42 @@
+# Expense Tracker (Python)
+
+## Overview
+
+Expense Tracker is a simple Python-based console application that helps users manage their daily expenses.
+Users can add expenses, view all recorded expenses, calculate the total expenditure, and delete expenses by category.
+All expense data is stored in a text file (`Expense.txt`) for persistent storage.
+
+## Features
+
+* Add new expenses with category and amount.
+* View all saved expenses.
+* Calculate total expenses.
+* Delete expenses by category.
+* Store expense records in a text file.
+* User-friendly menu-driven interface.
+
+## Technologies Used
+
+* Python
+* File Handling
+* Loops and Conditional Statements
+* Exception Handling
+
+## Project Structure
+
+```text
+Expense Tracker/
+│
+├── main.py
+├── Expense.txt
+└── README.md
+```
+
+## Future Improvements
+
+* Add Date and Time for each expense.
+* Monthly Expense Reports.
+* Category-wise Expense Summary.
+* Expense Editing Feature.
+* GUI Version using Tkinter.
+* Database Integration using SQLite.
