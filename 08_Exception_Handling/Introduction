@@ -1,0 +1,6 @@
+Exception Handling allows a program to handle unexpected errors during execution
+in a controlled way, instead of crashing the program in abnormal condition.
+It enables programmers to detect errors, manage them properly and continue execution
+wherever possible.
+. It handles runtime errors such as invalid input, file not found division by zero and type mismatch
+  errors that occurs during the exection of the program
