@@ -1,0 +1,68 @@
+# 🎮 Hangman Game (Python)
+
+A simple command-line **Hangman Game** built using Python.
+In this game, the player guesses letters to reveal a hidden word before running out of lives.
+
+---
+
+## 📌 Features
+
+* 🎲 Random word selection
+* 📝 Input validation
+* 🔁 Prevents duplicate guesses
+* ❤️ 6 lives system
+* 🎨 ASCII Hangman graphics
+* 🏆 Win/Lose detection
+* 📋 Displays guessed letters
+* 📈 Shows current word progress after every guess
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* `random` module
+
+## 💡 Concepts Used
+
+* Variables
+* Lists
+* Loops
+* Conditional Statements
+* Functions (can be added later)
+* String Manipulation
+* Input Validation
+* Random Module
+* Game Logic
+* ASCII Art
+
+---
+
+## 🚀 Future Improvements
+
+* Difficulty Levels (Easy, Medium, Hard)
+* Categories (Animals, Fruits, Countries, etc.)
+* Score System
+* Hints
+* Multiplayer Mode
+* Timer
+* Save High Scores
+* GUI Version using Tkinter or Pygame
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helps practice:
+
+* Python fundamentals
+* Loops and Conditions
+* List operations
+* String handling
+* User input validation
+* Problem-solving
+* Game development logic
+
+
+
+If you like this project, don't forget to ⭐ the repository!
