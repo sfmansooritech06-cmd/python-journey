@@ -1,0 +1,163 @@
+import random
+
+# Reverse Stages (Starts with full Hangman and removes parts gradually)
+stages = [
+r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''',
+r'''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+'''
+]
+
+word_list = [
+    "lion", "tiger", "elephant", "bear", "giraffe", "zebra",
+    "monkey", "dog", "cat", "horse", "cow", "sheep",
+    "chicken", "duck", "goose", "deer", "fox", "wolf",
+    "rabbit", "squirrel", "beaver", "kangaroo", "koala",
+    "dolphin", "whale", "shark", "snake", "lizard",
+    "turtle", "frog", "bird", "penguin", "ostrich",
+    "crocodile", "hippopotamus", "rhinoceros", "hyena",
+    "cheetah", "leopard", "gorilla", "chimpanzee", "panda",
+    "badger", "otter", "armadillo", "apple", "banana",
+    "orange", "grapefruit", "mango", "pineapple",
+    "strawberry", "blueberry", "cherry", "peach", "pear",
+    "watermelon", "kiwi", "avocado", "lime", "lemon",
+    "pomegranate", "fig", "papaya", "plum", "raspberry",
+    "blackberry", "dragonfruit", "lychee", "apricot",
+    "nectarine", "starfruit", "guava"
+]
+
+print(r'''
+Welcome to the Game
+
+__                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |
+                   |___/
+''')
+
+lives = 6
+
+chosen_word = random.choice(word_list)
+
+correct_letters = []
+guessed_letters = []
+
+print("Word:", "_" * len(chosen_word))
+print(stages[lives])
+
+game_over = False
+
+while not game_over:
+
+    guess = input("\nGuess a letter: ").lower().strip()
+
+    # Input Validation
+    if len(guess) != 1:
+        print("Please enter only ONE letter.")
+        continue
+
+    if not guess.isalpha():
+        print("Please enter an alphabet only.")
+        continue
+
+    if guess in guessed_letters:
+        print(f"You already guessed '{guess}'. Try another letter.")
+        continue
+
+    guessed_letters.append(guess)
+
+    # Wrong Guess
+    if guess not in chosen_word:
+        lives -= 1
+        print(f"\n❌ '{guess}' is not in the word.")
+        print(stages[lives])
+        print(f"Lives Left: {lives}")
+
+        if lives == 0:
+            print("\n************************ YOU LOSE ************************")
+            print("The correct word was:", chosen_word)
+            break
+
+    else:
+        correct_letters.append(guess)
+        print(f"\n✅ Good Guess!")
+
+    # Display Current Progress
+    display = ""
+
+    for letter in chosen_word:
+        if letter in correct_letters:
+            display += letter
+        else:
+            display += "_"
+
+    print("\nWord:", display)
+    print("Guessed Letters:", ", ".join(guessed_letters))
+
+    # Win Condition
+    if "_" not in display:
+        print("\n*********************** YOU WIN! ***********************")
+        game_over = True
