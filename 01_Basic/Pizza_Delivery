@@ -1,0 +1,26 @@
+print("Welcome to pizza delivery project !")
+size = input("Which size of pizza do you want!S, M, L :")
+pepperoni = input("Do you want extra pepperoni! Y or N :")
+cheese = input("Do you want extra cheese! Y or N :")
+
+if size == 'S':
+    bill = 40
+elif size == 'M':
+    bill = 60
+elif size == 'L':
+    bill = 80
+   
+else:
+    print("Your Choice is invalid!")
+    bill = None
+
+if bill is not None:
+    if pepperoni == 'Y':
+        bill = bill + 2
+    if cheese == 'Y':
+        bill = bill + 3
+    print("Your final bill is :",bill)
+
+
+    
+    
