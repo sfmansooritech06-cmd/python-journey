@@ -1,0 +1,4 @@
+The most well known statement is if statement to check multiple condition we use if statement there can be zero or more elif part 
+and else part is optional.
+The elif keyword is the short of "else if" and it is used to avoid excessive indentation. An if.....elif....elif is the sequence
+is subsitute found in other programming language.
