@@ -1,0 +1,6 @@
+# Print the greet with name
+
+
+def greet(greet,name):
+    print(f'{greet}  {name}')
+greet(greet = input("Enter the greeting :"),name = input("Enter the name :"))
