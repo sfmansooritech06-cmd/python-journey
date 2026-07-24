@@ -4,3 +4,14 @@
 def greet(greet,name):
     print(f'{greet}  {name}')
 greet(greet = input("Enter the greeting :"),name = input("Enter the name :"))
+
+
+def power(base, exponent=2):
+    return base ** exponent
+
+
+2.Write a function to calculate the power of a number with default exponent as 2
+
+
+result = power(int(input("Enter thee  number:")))
+print(result)
