@@ -23,4 +23,16 @@ print(result)
 def greet(name, message="Hello"):
     print(f"{message}, {name}!")
 
+
+4.Write a recursive function to calculate the factorial of a number.
+
+
 greet(name=(input("Enter the name:")), message=(input("Enter your message:")))
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+result
