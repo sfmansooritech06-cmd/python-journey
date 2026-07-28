@@ -29,6 +29,9 @@ def greet(name, message="Hello"):
 
 greet(name=(input("Enter the name:")), message=(input("Enter your message:")))
 
+
+4.Write a recursive function to calculate the factorial of a number.
+
 def factorial(n):
     if n == 1:
         return 1
@@ -36,3 +39,12 @@ def factorial(n):
         return n * factorial(n-1)
 
 result
+
+6.Write a Python program to sort a list of tuples based on the second element using a lambda function.
+
+data = [(1, 4), (3, 1), (5, 9), (2, 7)]
+data.sort(key=lambda x: x[1])
+
+print(data)
+
+
