@@ -48,3 +48,17 @@ data.sort(key=lambda x: x[1])
 print(data)
 
 
+
+
+7.Write a closure function that returns a function to multiply by a given factor.
+
+
+def multiplier(factor):
+    def multiply_by_factor(number):
+        return number * factor
+    return multiply_by_factor
+
+multiply_by_5 = multiplier(5)
+
+print(multiply_by_5(10))
+
