@@ -62,3 +62,19 @@ multiply_by_5 = multiplier(5)
 
 print(multiply_by_5(10))
 
+
+8.Write a decorator that logs the arguments and return value of a function.
+
+def logger(func):
+    def wrapper(*args, **kwargs):
+        print(f"Arguments: {args}, {kwargs}")
+        result = func(*args, **kwargs)
+        print(f"Return value: {result}")
+        return result
+    return wrapper
+
+@logger
+def add(a, b):
+    return a + b
+
+add(5, 3)
