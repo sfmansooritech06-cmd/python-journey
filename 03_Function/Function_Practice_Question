@@ -72,9 +72,18 @@ def logger(func):
         print(f"Return value: {result}")
         return result
     return wrapper
-
 @logger
 def add(a, b):
     return a + b
+
+
+
+9.Write a higher-order function that applies a function to every element in a list.
+
+def apply_function(data, func):
+    return [func(x) for x in data]
+
+result = apply_function([1, 2, 3, 4], lambda x: x**2)
+print(result)
 
 add(5, 3)
