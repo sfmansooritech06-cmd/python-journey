@@ -87,3 +87,13 @@ result = apply_function([1, 2, 3, 4], lambda x: x**2)
 print(result)
 
 add(5, 3)
+
+
+10.Write a function that takes a variable number of arguments and returns their sum.
+
+def sum_all(*args):
+    return sum(args)
+
+result = sum_all(1, 2, 3, 4, 5)
+print(result)
+
