@@ -97,3 +97,13 @@ def sum_all(*args):
 result = sum_all(1, 2, 3, 4, 5)
 print(result)
 
+
+11.Write a function that accepts variable keyword arguments and prints a formatted string.
+
+def display_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+display_info(name="Alice", age=30, city="New York")
+
+
