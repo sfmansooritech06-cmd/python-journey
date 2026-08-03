@@ -107,3 +107,24 @@ def display_info(**kwargs):
 display_info(name="Alice", age=30, city="New York")
 
 
+12.Write a memoized version of the Fibonacci function to improve performance.
+
+def memoize_fib(f):
+    memo = {}
+    def wrapper(n):
+        if n not in memo:
+            memo[n] = f(n)
+        return memo[n]
+    return wrapper
+
+@memoize_fib
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
+
+
+
+
