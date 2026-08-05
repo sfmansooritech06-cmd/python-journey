@@ -141,3 +141,15 @@ print(is_prime(30))
 
 
 
+
+14.Write a function that uses nested functions to calculate compound interest.
+
+def compound_interest(principal, rate, time):
+    def calculate():
+        return principal * ((1 + rate) ** time)
+
+    return calculate()
+
+result = compound_interest(1000, 0.05, 2)
+print(result)
+
