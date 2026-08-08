@@ -1,5 +1,10 @@
 
-1. Write a Python program to count the number of characters (character frequency) in a string?
+Q.1 Write a Python program to calculate the length of a string.
+
+st = input("Enter a string: ")
+print(len(st))
+
+ Write a Python program to count the number of characters (character frequency) in a string?
 
 str = input("Enter the string :")
 char = {}
@@ -9,3 +14,5 @@ for i in str:
     else:
         char[i] = 1
 print(char)
+
+
