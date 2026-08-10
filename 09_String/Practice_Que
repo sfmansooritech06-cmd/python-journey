@@ -24,3 +24,11 @@ if len(st) < 2:
 else:
     print(st[:2] + st[-2:])
 
+
+Q. 4 Write a Python program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself.
+
+st = input("Enter the string:")
+for char in st:
+    if char == st[0]:
+        st = st.replace(char, '$')
+print (st)
