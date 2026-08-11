@@ -32,3 +32,13 @@ for char in st:
     if char == st[0]:
         st = st.replace(char, '$')
 print (st)
+
+
+5. Write a Python program to get a single string from two given strings, separated by a space and swap the first two characters of each string.
+
+st1 = input("Enter the first string: ")
+st2 = input("Enter the second string: ")
+st3 = st1.replace(st1[:2], st2[:2])
+st4 = st2.replace(st2[:2], st1[:2])
+print(st3 + " " + st4)
+
