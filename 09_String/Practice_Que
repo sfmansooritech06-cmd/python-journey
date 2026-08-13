@@ -55,3 +55,14 @@ if len(st) > 3:
         print(st + 'ing')
 else:
     print(st)
+
+
+
+7. Write a Python program to find the first appearance of the substrings 'not' and 'poor' in a given string. If 'not' follows 'poor', replace the whole 'not'...'poor' substring with 'good'. Return the resulting string.
+
+st = input("Enter your string: ")
+a =st.find('not')
+b = st.find('poor')
+if a < b:
+    st = st.replace(st[a:b+4], 'good'" ")
+print(st)
