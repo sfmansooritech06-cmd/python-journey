@@ -66,3 +66,18 @@ b = st.find('poor')
 if a < b:
     st = st.replace(st[a:b+4], 'good'" ")
 print(st)
+
+
+
+8. Write a Python function that takes a list of words and return the longest word and the length of the longest one
+
+li = input("Enter your list: ")
+li = li.split()
+max_len = 0
+for word in li:
+    if len(word) > max_len:
+        max_len = len(word)
+        longest_word = word
+
+print(longest_word)
+print(max_len)
