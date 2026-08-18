@@ -81,3 +81,11 @@ for word in li:
 
 print(longest_word)
 print(max_len)
+
+
+9. Write a Python program to remove the nth index character from a nonempty string.
+
+a = input("Enter your string:  ")
+n = int(input("Enter the index too remove"))
+new_st = a[:n]+a[n+1:]
+print(new_st)
