@@ -89,3 +89,11 @@ a = input("Enter your string:  ")
 n = int(input("Enter the index too remove"))
 new_st = a[:n]+a[n+1:]
 print(new_st)
+
+
+10. Write a Python program to change a given string to a newly string where the first and last chars have been exchanged.
+st =input("enter the string: ")
+a = st[0]
+b = st[-1]
+st = b + st[1:-1] +a
+print(st)
