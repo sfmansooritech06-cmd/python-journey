@@ -97,3 +97,13 @@ a = st[0]
 b = st[-1]
 st = b + st[1:-1] +a
 print(st)
+
+
+11. Write a  Python program to remove characters that have odd index values in a given string.
+
+st = input("Enter your string: ")
+new_st = ""
+for i in range(len(st)):
+    if i % 2 == 0:
+        new_st += st[i]
+print(new_st)
