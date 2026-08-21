@@ -107,3 +107,11 @@ for i in range(len(st)):
     if i % 2 == 0:
         new_st += st[i]
 print(new_st)
+
+
+12. Write a Python function to create an HTML string with tags around the word(s)
+
+a =input("Enter your string")
+b = input("Enter tag")
+print(f"<{b}><{a}><{b}>")
+
