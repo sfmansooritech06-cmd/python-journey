@@ -122,3 +122,11 @@ print(f"<{b}><{a}><{b}>")
 a = input("enter your string")
 print(a.upper())
 print(a.lower())
+
+
+14. Write a Python program that accepts a comma-separated sequence of words as input and prints the distinct words in sorted form (alphanumerically).
+
+st =input("Enter your string")
+st = st.split(',')
+st = sorted (st)
+print(st)
