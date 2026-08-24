@@ -130,3 +130,11 @@ st =input("Enter your string")
 st = st.split(',')
 st = sorted (st)
 print(st)
+
+
+ 15. Write a Python function to insert a string in the middle of a string.
+
+a =input("enter the string")
+b = input("enter the string you want in put in middle")
+c =a[:len(a)//2] + b + a[len(a)//2:]
+print(c)
