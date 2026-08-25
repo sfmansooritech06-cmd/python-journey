@@ -138,3 +138,14 @@ a =input("enter the string")
 b = input("enter the string you want in put in middle")
 c =a[:len(a)//2] + b + a[len(a)//2:]
 print(c)
+
+
+
+16. Write a Python function to get a string made of 4 copies of the last two characters of a specified string (length must be at least 2).
+
+a =input("enter the string")
+if len(a)>2:
+   b = a[-2:]*4
+   print(b)
+else:
+    print("the length of string is soo small")
