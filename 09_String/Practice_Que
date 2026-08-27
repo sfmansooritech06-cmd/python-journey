@@ -158,3 +158,11 @@ if len(a)<3:
     print(a)
 else:
     print(a[:3])
+
+
+18. Write a Python program to get the last part of a string before a specified character.
+
+a = input("enter the string: ")
+b = input("enter the character: ")
+c = (a.rsplit(b)[0])
+print(c)
