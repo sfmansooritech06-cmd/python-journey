@@ -166,3 +166,12 @@ a = input("enter the string: ")
 b = input("enter the character: ")
 c = (a.rsplit(b)[0])
 print(c)
+
+
+19. Write a Python function to reverse a string if its length is a multiple of 4.
+
+st = input("Enter the string: ")
+if len(st) % 4 == 0:
+    print(st[::-1])
+else:
+    print(st)
