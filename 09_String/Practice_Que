@@ -175,3 +175,19 @@ if len(st) % 4 == 0:
     print(st[::-1])
 else:
     print(st)
+
+
+20.
+Write a Python function to convert a given string to all uppercase if it contains at least 2 uppercase characters in the first 4 characters.
+
+st = input("Enter the string: ")
+count = 0
+for char in st[:4]:
+    if char.isupper():
+        count += 1
+    if count >= 2:
+        print(st.upper())
+
+    else:
+         print(st)
+
