@@ -191,3 +191,10 @@ for char in st[:4]:
     else:
          print(st)
 
+
+21.Write a Python program to sort a string lexicographically.
+
+a = input("enter the string: ")
+b = sorted(a)
+print(b)
+
