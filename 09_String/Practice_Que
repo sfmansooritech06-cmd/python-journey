@@ -198,3 +198,10 @@ a = input("enter the string: ")
 b = sorted(a)
 print(b)
 
+
+
+22. Write a Python program to remove a newline in Python.
+
+a = input("enter the string: ")
+b = a.replace("\n", "")
+print(b)
