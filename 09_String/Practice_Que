@@ -205,3 +205,13 @@ print(b)
 a = input("enter the string: ")
 b = a.replace("\n", "")
 print(b)
+
+
+23.Write a Python program to check whether a string starts with specified characters.
+
+a =input("enter your string: ")
+b = input("enter the character: ")
+if a.startswith(b):
+    print("start with" ,b)
+else:
+    print("not start with", b)
