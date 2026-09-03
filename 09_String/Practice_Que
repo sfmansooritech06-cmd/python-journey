@@ -215,3 +215,9 @@ if a.startswith(b):
     print("start with" ,b)
 else:
     print("not start with", b)
+
+
+24.  Write a Python program to display formatted text (width=50) as output.
+
+a = input("enter the string: ")
+print(a.center(50))
