@@ -221,3 +221,13 @@ else:
 
 a = input("enter the string: ")
 print(a.center(50))
+
+
+25.Write a Python program to add prefix text to all of the lines in a string.
+
+st = input("enter your string: ")
+st1 =input("enter the prefix text: ")
+st = st.splitlines()
+
+for line in st:
+    print(st1 + line)
