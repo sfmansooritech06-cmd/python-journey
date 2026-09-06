@@ -20,3 +20,15 @@ for i in li:
     if i > max:
         max = i
 print(max)
+
+
+
+4. Write a Python program to get the smallest number from a list.
+
+li =[43, 54, 34, 65, 56]
+min = li[0]
+for i in li:
+    if i < min:
+        min = i
+
+print(min)
