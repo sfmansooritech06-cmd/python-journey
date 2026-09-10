@@ -55,4 +55,13 @@ print(li)
 li = [10,20,30,20,10,50,60,40,80,50,40]
 print(list(set(li)))
 
+8. Write a Python program to check if a list is empty or not.
+
+#%%
+li = [24, 25]
+if len(li)==0:
+    print("list is empty")
+else:
+    print("list is not empty")
+
 
