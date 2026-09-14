@@ -73,3 +73,19 @@ li = [10, 22, 44, 23, 4]
 li2 = li.copy()
 print(li2)
 print(li)
+
+
+10.  Write a Python program to find the list of words that are longer than n from a given list of words.
+
+
+li = ['abc', 'xyz', 'aba', '1221']
+n= int(input("Enter the  number: "))
+
+for i in li:
+    if len(i)>n:
+        if i[0]==i[-1]:
+            print(i)
+else:print("length is small")
+
+
+
