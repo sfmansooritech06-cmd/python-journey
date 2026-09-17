@@ -109,6 +109,21 @@ for i in li1:
 
 
 
+12. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
+
+li =  ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+li.pop(0)
+li.pop(4)
+li.pop()
+print(li)
+
+
+
+
+
+
+
+
 
 
 
