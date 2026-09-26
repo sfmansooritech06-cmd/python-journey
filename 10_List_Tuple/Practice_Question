@@ -127,8 +127,13 @@ print(li)
 
 
 
+14. Write a Python program to print the numbers of a specified list after removing even numbers from it
 
-
+li = [7,8, 120, 25, 44, 20, 27]
+for i in li:
+    if i%2==0:
+        li.remove(i)
+print(li)
 
 
 
