@@ -135,9 +135,12 @@ for i in li:
         li.remove(i)
 print(li)
 
+15. Write a Python program to shuffle and print a specified list.
 
-
-
+li = [3, 6, 9, 12, 15, 18, 21]
+import random
+random.shuffle(li)
+print(li)
 
 
 
