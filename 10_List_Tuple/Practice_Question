@@ -152,6 +152,28 @@ print(li[-5:])
 
 
 
+17. Write a Python program to check if each number is prime in a given list of numbers. Return True if all numbers are prime otherwise False.
+
+li = [0, 3, 4, 7, 9]
+for i in li:
+    if i%2==0:
+        print("False")
+    else:
+        print("True")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
