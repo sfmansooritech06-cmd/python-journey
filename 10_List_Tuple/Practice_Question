@@ -162,7 +162,11 @@ for i in li:
         print("True")
 
 
+18. Write a  Python program to generate all permutations of a list in Python.
 
+li = [1, 2, 3]
+import itertools
+print(list(itertools.permutations(li)))
 
 
 
