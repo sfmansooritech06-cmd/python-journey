@@ -180,6 +180,11 @@ for i in li1:
 print(li3)
 
 
+20. Write a Python program to access the index of a list.
+
+li = [5, 15, 35, 8, 98]
+for i in range(len(li)):
+    print(i, li[i])
 
 
 
