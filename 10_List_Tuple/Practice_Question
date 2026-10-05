@@ -187,6 +187,22 @@ for i in range(len(li)):
     print(i, li[i])
 
 
+21. Write a Python program to convert a list of characters into a string.
+
+li = ['a', 'b', 'c', 'd']
+str = ''.join(li)
+print(str)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
