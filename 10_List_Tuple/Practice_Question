@@ -201,7 +201,14 @@ li = [10, 30, 4, -6]
 print(li.index(30))
 
 
+23. Write a Python program to flatten a shallow list.
 
+li = [[2, 4, 3], [1, 5, 6], [9], [7, 9, 0]]
+li2 = []
+for i in li:
+    for j in i:
+        li2.append(j)
+print(li2)
 
 
 
