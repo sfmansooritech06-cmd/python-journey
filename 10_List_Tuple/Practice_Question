@@ -210,7 +210,13 @@ for i in li:
         li2.append(j)
 print(li2)
 
+24. Write a Python program to append a list to the second list.
 
+li = [1, 2, 3, 0]
+li2 = ['Red', 'Green', 'Black']
+for i in li2:
+    li.append(i)
+print(li)
 
 
 
