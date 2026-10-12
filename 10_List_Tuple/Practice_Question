@@ -226,6 +226,38 @@ import random
 print(random.choice(li))
 
 
+26. Write a Python program to check whether two lists are circularly identical.
+
+list1 = [10, 10, 0, 0, 10]
+list2 = [10, 10, 10, 0, 0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
