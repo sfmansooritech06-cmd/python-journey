@@ -243,7 +243,12 @@ print(min)
 
 28. Write a Python program to find the second largest number in a list.
 
-
+li = [1, 2, -8, 5]
+max = li[0]
+for i in li:
+    if i > max:
+        max = i
+print(max)
 
 
 
