@@ -250,7 +250,7 @@ for i in li:
         max = i
 print(max)
 
-
+29. Write a Python program to get unique values from a list.
 
 
 
