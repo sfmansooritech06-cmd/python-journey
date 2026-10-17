@@ -252,6 +252,13 @@ print(max)
 
 29. Write a Python program to get unique values from a list.
 
+li1 = [12, 54, 85, 69, 54, 12]
+li2 = []
+for i in li1:
+    if i not in li2:
+        li2.append(i)
+print(li2)
+
 
 
 
