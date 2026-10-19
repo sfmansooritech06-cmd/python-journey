@@ -259,8 +259,7 @@ for i in li1:
         li2.append(i)
 print(li2)
 
-
-
+30. Write a Python program to get the frequency of elements in a list.
 
 
 
