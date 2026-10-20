@@ -261,7 +261,11 @@ print(li2)
 
 30. Write a Python program to get the frequency of elements in a list.
 
-
+li = [10, 10, 10, 10, 20, 20, 20, 20, 40, 40, 50, 50, 30]
+li2 = []
+for i in li:
+    li2.append(li.count(i))
+print(li2)
 
 
 
