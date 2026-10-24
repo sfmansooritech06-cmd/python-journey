@@ -275,7 +275,13 @@ print(len([i for i in li if 25<i<75]))
 
 32. Write a Python program to check whether a list contains a sublist.
 
-
+li = [2, 4, 3, 5, 7]
+li2 = [4, 3]
+for i in li2:
+    if i in li:
+        print("True")
+    else:
+        print("False")
 
 
 
