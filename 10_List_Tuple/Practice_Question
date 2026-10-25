@@ -283,6 +283,11 @@ for i in li2:
     else:
         print("False")
 
+#33. Write a Python program to generate all sublists of a list.
+list1 = [1, 2, 3]
+sublist = [[]]      
+print(sublist)
+
 
 
 
