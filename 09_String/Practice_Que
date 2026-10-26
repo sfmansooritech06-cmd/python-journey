@@ -232,4 +232,7 @@ st = st.splitlines()
 for line in st:
     print(st1 + line)
 
+26.Write a python program to check string is pallindrome or not 
+s =  input("Enter String:").lower().replace(" "," ")
+print("pallnidrome" if s == s[::-1]else "not pallinndrome")
 
