@@ -236,3 +236,6 @@ for line in st:
 s =  input("Enter String:").lower().replace(" "," ")
 print("pallnidrome" if s == s[::-1]else "not pallinndrome")
 
+27.write a string to add hello with name 
+name = "Rahul"
+print("Hello " + name)
