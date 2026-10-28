@@ -288,12 +288,12 @@ list1 = [1, 2, 3]
 sublist = [[]]      
 print(sublist)
 
+#34 Program to concatenate two strings in Python
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
 
-
-
-
-
-
+result = string1 + string2
+print("Concatenated String:", result)
 
 
 
