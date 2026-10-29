@@ -12,3 +12,7 @@ print(a)
 
 b = dict(name="Sam", age=20)
 print(b)
+
+#create a dictionary
+dict = {name = "Sadaf",age = 20}
+print(dict)
