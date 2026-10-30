@@ -283,18 +283,41 @@ for i in li2:
     else:
         print("False")
 
-#33. Write a Python program to generate all sublists of a list.
+33. Write a Python program to generate all sublists of a list.
+
 list1 = [1, 2, 3]
 sublist = [[]]      
 print(sublist)
 
-#34 Program to concatenate two strings in Python
+34 Program to concatenate two strings in Python
+
 string1 = input("Enter the first string: ")
 string2 = input("Enter the second string: ")
 
 result = string1 + string2
 print("Concatenated String:", result)
 
+35. Write a Python program that uses the Sieve of Eratosthenes method to compute prime numbers up to a specified number.
+
+upper_limit = int(input("Enter the upper limit to find primes: "))
+
+is_prime = [True] * (upper_limit + 1)
+is_prime[0] = is_prime[1] = False
+
+p = 2
+
+
+while (p * p <= upper_limit):
+    if is_prime[p]:
+
+        for i in range(p * p, upper_limit + 1, p):
+            is_prime[i] = False
+    p += 1
+
+
+primes = [num for num in range(2, upper_limit + 1) if is_prime[num]]
+
+print("Prime numbers up to", upper_limit, "are:", primes)
 
 
 
