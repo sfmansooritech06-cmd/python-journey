@@ -321,7 +321,10 @@ print("Prime numbers up to", upper_limit, "are:", primes)
 
 36. Write a Python program to create a list by concatenating a given list with a range from 1 to n.
 
-
+li = ['p', 'q']
+n = 5
+li2 = ['{}{}'.format(x, y) for y in range(1, n+1) for x in li]
+print(li2)
 
 
 
