@@ -328,7 +328,8 @@ print(li2)
 
 37. Write a Python program to get a variable with an identification number or string.
 
-
+li = 'w3resource'
+print(format(id(li)))
 
 
 
