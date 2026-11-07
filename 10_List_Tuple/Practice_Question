@@ -331,7 +331,7 @@ print(li2)
 li = 'w3resource'
 print(format(id(li)))
 
-37. Write a Python program to find common items in two lists.
+38. Write a Python program to find common items in two lists.
 
 li1 = [2, 5, 9, 54, 45, 74, 8 ]
 li2 = [4, 9, 45, 74, 8]
@@ -341,7 +341,7 @@ for i in li1:
         li3.append(i)
 print(li3)
 
-
+39. Write a Python program to change the position of every n-th value to the (n+1)th in a list.
 
 
 
