@@ -343,7 +343,12 @@ print(li3)
 
 39. Write a Python program to change the position of every n-th value to the (n+1)th in a list.
 
-
+li = [0, 10, 20, 40, 80, 100, 40]
+li2 = []
+for i in range(0, len(li)-1, 2):
+    li2.append(li[i+1])
+    li2.append(li[i])
+print(li2)
 
 
 
