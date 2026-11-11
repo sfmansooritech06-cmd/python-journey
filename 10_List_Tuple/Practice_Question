@@ -357,6 +357,19 @@ for i in li:
     print(i, end="")
 
 
+41.Write a Python program to split a list based on the first character of a word.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
